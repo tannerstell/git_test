@@ -1,0 +1,3 @@
+git status # Displays staging area
+git commit -m "{file name}" # commits the staged files to the repository.
+
