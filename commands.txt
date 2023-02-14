@@ -1,10 +1,11 @@
 My notes:
 
 Process to update or add files to repo:
+git remote add origin git@github.com:tannerstell/{repo}.git # initializes the repository 
+
 
 git add "{file name}" # Adds or updates one file to staging area
 git add . # Adds all files in current directory
-
 
 git commit -m "{file name}" # commits the staged files to the repository at a certain time.
 git push # Save changes to github
