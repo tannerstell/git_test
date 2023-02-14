@@ -1,5 +1,11 @@
+My notes:
+
+Process to update or add files to repo:
+
+git add "{file name}" # Adds new or update file to staging area
+git commit -m "{file name}" # commits the staged files to the repository at a certain time.
+git push # Save changes to github
 git status # Displays staging area
-git commit -m "{file name}" # commits the staged files to the repository.
 
 
 
