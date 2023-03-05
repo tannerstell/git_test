@@ -1,0 +1,21 @@
+body {
+	background-color: gray;
+	margin: auto;
+	padding: 100px;
+	max-width: 1000px;
+}
+
+#title {
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	display: table;
+}
+
+img {
+	width: 100%;
+	max-width: 300px;
+	/* height: auto;
+	display: block;
+	margin: auto; */
+}
