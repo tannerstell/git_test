@@ -26,7 +26,7 @@ a {
 }
 
 .text:hover {
-	color: white;
+	color: gray;
 	border-radius: 5px;
 }
 
