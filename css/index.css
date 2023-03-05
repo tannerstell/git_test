@@ -1,6 +1,8 @@
 body { /* Type selector */
-	background-color: gray;
+	background-color: lightgray;
 	text-align: center;
+	max-width: 800px;
+	margin: auto;
 }
 
 .title {
@@ -10,23 +12,30 @@ body { /* Type selector */
 	border-radius: 5px;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
 }
 
-ul a {
+a {
+	display: flex;
+	justify-content: center;
 	color: black;
+	padding: 5px;
 }
 
-li {
-	color: black;
-	display: inline;
-	padding: 10px;
-}
-
-li:hover {
+a:hover {
 	background-color: white;
 	border-radius: 5px;
+}
+
+img {
+	max-width: 150px;
+	min-height: 150px;
+	margin-top: 20px;
+}
+
+img:hover {
+	transform: scale(1.2);
 }

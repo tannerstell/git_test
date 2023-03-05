@@ -1,21 +1,27 @@
 body {
-	background-color: gray;
+	background-color: lightgray;
 	margin: auto;
-	padding: 100px;
-	max-width: 1000px;
+	max-width: 700px;
 }
 
 #title {
-	background-color: white;
+	background-color: black;
+	color: white;
 	border-radius: 5px;
 	text-align: center;
-	display: table;
+
 }
 
 img {
 	width: 100%;
-	max-width: 500px;
-	/* height: auto;
+	max-width: 512px;
+	border-radius: 2px;
+	height: auto;
 	display: block;
-	margin: auto; */
+	margin: auto;
+}
+
+li:hover {
+	background-color: lightgray;
+	border-radius: 3px;
 }
