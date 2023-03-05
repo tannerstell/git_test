@@ -15,7 +15,7 @@ body {
 img {
 	width: 100%;
 	max-width: 512px;
-	border-radius: 2px;
+	border-radius: 5px;
 	height: auto;
 	display: block;
 	margin: auto;
